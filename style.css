@@ -1,3 +1,246 @@
-h2 {
-    background-color: aqua;
+:root {
+  --lato: 'Lato', sans-serif;
+  --pblack: #272a31;
+  --pred: #ec5242;
+  --pgray: #d3d3d3;
+  --coco: 'Cocogoose', sans-serif;
+  --main: #272a32;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-desk {
+    display: none;
+  }
+
+  .intro-mobile {
+      width: 100vw;
+      height: auto;
+      background-image: url(images/mobile_intro_bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 40px;
+  }
+
+  .toggle-nav {
+      margin-left: 40px;
+      font-size: 50px;
+  }
+
+  .main-title {
+      margin: 100px 20px 30px 0;
+  }
+
+  .title {
+    background: linear-gradient(rgb(171, 173, 2) , #ec5242);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    margin-left: 40px;
+    font-family: var(--coco);
+    margin-top: 5px;
+  }
+
+  .title-paragraph {
+      margin-left: 40px;
+      font-family: var(--coco);
+      font-size: 25px;
+      background: linear-gradient(red , rgb(90, 90, 0));
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 20px;
+  }
+
+  .paragraph {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid white;
+      padding: 30px 20px 30px 0;
+      margin: 20px 30px;
+      background: transparent;
+  }
+
+  .paragraph-text {
+      color: var(--pblack);
+      font-size: 20px;
+      font-weight: 600;
+      background-color: transparent;
+      font-family: var(--lato);
+  }
+
+  .date-place {
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+      padding-bottom: 70px;
+  }
+
+  .date {
+    padding-top: 10px;
+    font-family: var(--coco);
+    font-size: 30px;
+    color: var(--pblack);
+  }
+
+  .place {
+    padding: 20px 0; 
+    font-family: var(--lato);
+    font-size: 20px;
+    color: var(--pblack);
+  }
+
+  .main-program {
+    background-color: var(--main);
+    background-image: url(images/pattern_bg.png);
+  }
+
+  .main-p-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .program-title {
+      padding-top: 45px;
+      color: white;
+      font-family: var(--lato);
+      font-size: 35px;
+  }
+
+  .orange-bar {
+      color: #ec5242;
+      font-size: 30px;
+      font-weight: 800;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 15px 15px 15px 20px;
+    height: 90px;
+    align-items: center;
+  }
+
+  .main-img {
+    padding: 0 50px;
+
+  }
+
+  .second {
+    color: var(--pred);
+    padding: 0 0 0 10px;
+    font-family: var(--lato);
+  }
+
+  .third {
+    color: white;
+    padding: 0 0 0 30px;
+    font-family: var(--lato);
+  }
+
+  .main-button {
+    text-align: center;
+  }
+
+  .btn-main {
+    margin: 20px 30px;
+    background-color: var(--pred);
+    color: white;
+    font-family: var(--lato);
+    height: 100px;
+    width: 300px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  
+}
+
+@media only screen and (min-width: 769px) {
+  .intro-mobile {
+      display: none;
+  } 
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 75px;
+    padding-left: 50px;
+  }
+
+  .header-ul {
+      display: flex;
+      align-items: center;
+  }
+  li {
+      padding: 0 20px;
+      list-style: none;
+      text-decoration: none;
+      font-family: var(--lato);
+  }
+
+  a {
+      text-decoration: none;
+      color: var(--pblack);
+      font-size: medium;
+  }
+
+  .logo-img {
+      width: 150px;
+      height: auto;
+
+  }
+
+  .header-social {
+      width: auto;
+      height: 40px;
+      background-color: var(--pblack);
+      text-align: end;
+      padding-top: 10px;
+      padding-right: 75px;
+  }
+
+  .a-header-social {
+      color: var(--pgray);
+      padding-right: 20px;
+  }
+
+  .ccc-button {
+      height: 50px;
+      width: auto;
+      padding: 0 10px 0 10px;
+      background-color: white;
+      border: 5px solid var(--pred);
+      font-family: var(--lato);
+      color: var(--pred);
+      margin-left: 75px;
+  }
+
+  .twitter-img {
+      padding-right: 20px;
+  }
+
+  .a-about {
+      color: var(--pred);
+  }
+
 }
