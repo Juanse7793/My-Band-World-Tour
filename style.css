@@ -25,7 +25,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .header-desk {
+  .header-social,
+  .logo-div,
+  .ccc-button {
     display: none;
   }
 
@@ -38,9 +40,56 @@ body {
       padding-top: 40px;
   }
 
+  .a-header-div {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    vertical-align: top;
+  }
+
+  .header-ul {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
   .toggle-nav {
       margin-left: 40px;
       font-size: 50px;
+  }
+
+  .a-header-div .closebtn {
+    position: absolute;
+    margin: 0 0 0 0;
+    color: var(--pred);
+    font-size: 30px;
+    top: 0;
+    right: 15px;
+  }
+
+  .a-header-div a {
+    padding: 10px;
+    margin: 30px 0;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--pred);
   }
 
   .main-title {
