@@ -32,12 +32,12 @@ body {
   }
 
   .intro-mobile {
-      width: 100vw;
-      height: auto;
-      background-image: url(images/mobile_intro_bg.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding-top: 40px;
+    width: 100vw;
+    height: auto;
+    background-image: url(images/mobile_intro_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
   }
 
   .a-header-div {
@@ -65,8 +65,8 @@ body {
   }
 
   .toggle-nav {
-      margin-left: 40px;
-      font-size: 50px;
+    margin-left: 40px;
+    font-size: 50px;
   }
 
   .a-header-div .closebtn {
@@ -93,11 +93,11 @@ body {
   }
 
   .main-title {
-      margin: 100px 20px 30px 0;
+    margin: 100px 20px 30px 0;
   }
 
   .title {
-    background: linear-gradient(rgb(171, 173, 2) , #ec5242);
+    background: linear-gradient(rgb(171, 173, 2), #ec5242);
     -webkit-background-clip: text;
     color: transparent;
     font-size: 60px;
@@ -107,38 +107,38 @@ body {
   }
 
   .title-paragraph {
-      margin-left: 40px;
-      font-family: var(--coco);
-      font-size: 25px;
-      background: linear-gradient(red , rgb(90, 90, 0));
-      -webkit-background-clip: text;
-      color: transparent;
-      margin-bottom: 20px;
+    margin-left: 40px;
+    font-family: var(--coco);
+    font-size: 25px;
+    background: linear-gradient(red, rgb(90, 90, 0));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
   }
 
   .paragraph {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 5px solid white;
-      padding: 30px 20px 30px 0;
-      margin: 20px 30px;
-      background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    padding: 30px 20px 30px 0;
+    margin: 20px 30px;
+    background: transparent;
   }
 
   .paragraph-text {
-      color: var(--pblack);
-      font-size: 20px;
-      font-weight: 600;
-      background-color: transparent;
-      font-family: var(--lato);
+    color: var(--pblack);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    font-family: var(--lato);
   }
 
   .date-place {
-      display: flex;
-      flex-direction: column;
-      margin-left: 40px;
-      padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-bottom: 70px;
   }
 
   .date {
@@ -149,7 +149,7 @@ body {
   }
 
   .place {
-    padding: 20px 0; 
+    padding: 20px 0;
     font-family: var(--lato);
     font-size: 20px;
     color: var(--pblack);
@@ -162,24 +162,24 @@ body {
 
   .main-p-title,
   .band-title {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .program-title {
-      padding-top: 45px;
-      color: white;
-      font-family: var(--lato);
-      font-size: 35px;
+    padding-top: 45px;
+    color: white;
+    font-family: var(--lato);
+    font-size: 35px;
   }
 
   .orange-bar {
-      color: #ec5242;
-      font-size: 30px;
-      font-weight: 800;
+    color: #ec5242;
+    font-size: 30px;
+    font-weight: 800;
   }
-  
+
   .cards {
     display: flex;
     justify-content: space-between;
@@ -191,7 +191,6 @@ body {
 
   .main-img {
     padding: 0 50px;
-
   }
 
   .second {
@@ -234,8 +233,6 @@ body {
     align-items: center;
   }
 
-
-
   .img-band {
     width: 180px;
     height: auto;
@@ -261,10 +258,10 @@ body {
   }
 
   .gray-bar {
-    color: gray ;
+    color: gray;
     font-size: 15px;
     font-weight: 800;
-}
+  }
 
   .member-description {
     padding: 25px 0;
@@ -272,16 +269,14 @@ body {
     font-weight: 400;
     font-size: 15px;
   }
-
-  
 }
 
 @media only screen and (min-width: 769px) {
   .intro-mobile {
-      display: none;
-  } 
-  
-.header {
+    display: none;
+  }
+
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -290,59 +285,58 @@ body {
   }
 
   .header-ul {
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
   }
+
   li {
-      padding: 0 20px;
-      list-style: none;
-      text-decoration: none;
-      font-family: var(--lato);
+    padding: 0 20px;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--lato);
   }
 
   a {
-      text-decoration: none;
-      color: var(--pblack);
-      font-size: medium;
+    text-decoration: none;
+    color: var(--pblack);
+    font-size: medium;
   }
 
   .logo-img {
-      width: 150px;
-      height: auto;
-
+    width: 150px;
+    height: auto;
   }
 
   .header-social {
-      width: auto;
-      height: 40px;
-      background-color: var(--pblack);
-      text-align: end;
-      padding-top: 10px;
-      padding-right: 75px;
+    width: auto;
+    height: 40px;
+    background-color: var(--pblack);
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 75px;
   }
 
   .a-header-social {
-      color: var(--pgray);
-      padding-right: 20px;
+    color: var(--pgray);
+    padding-right: 20px;
   }
 
   .ccc-button {
-      height: 50px;
-      width: auto;
-      padding: 0 10px 0 10px;
-      background-color: white;
-      border: 5px solid var(--pred);
-      font-family: var(--lato);
-      color: var(--pred);
-      margin-left: 75px;
+    height: 50px;
+    width: auto;
+    padding: 0 10px 0 10px;
+    background-color: white;
+    border: 5px solid var(--pred);
+    font-family: var(--lato);
+    color: var(--pred);
+    margin-left: 75px;
   }
 
   .twitter-img {
-      padding-right: 20px;
+    padding-right: 20px;
   }
 
   .a-about {
-      color: var(--pred);
+    color: var(--pred);
   }
-
 }
