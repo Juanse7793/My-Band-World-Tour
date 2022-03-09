@@ -30,7 +30,7 @@ const band = [
     description: 'Marco was born in Chachimbiro, he is the vocalist of the band since 2009',
   },
   {
-    name: 'Steve Muñoz L',
+    name: 'Steve Muñoz',
     position: 'Manager',
     img: 'images/steve.png',
     description: 'Steve was born in Ambuquí, he is the Manager of the band since day one back in 2008',
