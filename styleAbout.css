@@ -31,7 +31,7 @@ body {
   .title-paragraph {
     display: none;
   }
-  
+
   .intro-mobile {
     width: 100vw;
     height: auto;
@@ -435,6 +435,7 @@ body {
     text-decoration: underline;
     font-size: 15px;
   }
+
   .logo-section {
     text-align: center;
     border-bottom: 1px solid rgb(225, 225, 225);
@@ -575,6 +576,4 @@ body {
     color: var(--pblack);
     padding-left: 20px;
   }
-
-
 }
