@@ -315,6 +315,10 @@ body {
     padding: 0 20px;
   }
 
+  .a-buttons:hover {
+    color: var(--pred);
+  }
+
   a {
     text-decoration: none;
     color: var(--pblack);
@@ -338,6 +342,11 @@ body {
   .a-header-social {
     color: var(--pgray);
     padding-right: 20px;
+    font-family: var(--lato);
+  }
+
+  .a-header-social:hover {
+    color: var(--pred);
   }
 
   .ccc-button {
@@ -349,6 +358,11 @@ body {
     font-family: var(--lato);
     color: var(--pred);
     margin-left: 50px;
+  }
+
+  .ccc-button:hover {
+    background-color: var(--pred);
+    color: var(--pgray);
   }
 
   .twitter-img {
@@ -437,7 +451,7 @@ body {
     font-family: var(--lato);
     color: var(--pblack);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin: 30px 30px 0 30px;
   }
 
@@ -514,7 +528,7 @@ body {
     font-family: var(--lato);
     color: var(--pgray);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin: 30px 30px 0 30px;
     padding-top: 20px;
   }
