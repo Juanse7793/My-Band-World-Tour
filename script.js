@@ -1,6 +1,6 @@
 const band = [
   {
-    name: 'Daniel Torres Muñoz',
+    name: 'Daniel Torres',
     position: 'Vocalist, Rhythm guitar, Co-founder',
     img: 'images/daniel.png',
     description: 'Daniel was born in Guayaquil, he is the vocalist of the band since 2010',
@@ -24,7 +24,7 @@ const band = [
     description: 'Esteban AKA ("El Chamo") was born in Quito, he is the Lead Guitar of the band since 2012',
   },
   {
-    name: 'Marco Vallejo A',
+    name: 'Marco Vallejo',
     position: 'Vocalist',
     img: 'images/marco.png',
     description: 'Marco was born in Chachimbiro, he is the vocalist of the band since 2009',
