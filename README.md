@@ -44,6 +44,10 @@ https://juanse7793.github.io/Capstone-Module-1/
 - LinkedIn: [Juan Sebastian Sotomayor](https://linkedin.com/in/juan-sebastian-sotomayor-2bb395198)
 
 
+## Presentation
+
+Click here to see the [Video](https://drive.google.com/file/d/1GA1WXJZ74ASAINnAwXY6NZNI1nt9xAR0/view?usp=sharing) of the Capstone 1 Project
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
