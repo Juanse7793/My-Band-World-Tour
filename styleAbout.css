@@ -25,12 +25,20 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .header-social,
+  .logo-div,
+  .ccc-button,
+  .title-paragraph {
+    display: none;
+  }
+  
   .intro-mobile {
     width: 100vw;
     height: auto;
     background-image: url(images/about_bg_01.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position-y: 150px;
     padding-top: 30px;
     background-color: rgb(245, 245, 245);
   }
@@ -92,21 +100,11 @@ body {
   }
 
   .title {
-    background: linear-gradient(rgb(171, 173, 2), #ec5242);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 60px;
+    color: var(--pred);
+    font-size: 50px;
+    margin: 10px 30px;
     font-family: var(--coco);
     margin-top: 5px;
-  }
-
-  .title-paragraph {
-    font-family: var(--coco);
-    font-size: 25px;
-    background: linear-gradient(red, rgb(90, 90, 0));
-    -webkit-background-clip: text;
-    color: transparent;
-    margin: 20px 0;
   }
 
   .paragraph {
@@ -152,6 +150,7 @@ body {
   .logo-section {
     text-align: center;
     border-bottom: 1px solid rgb(225, 225, 225);
+    margin: 30px 0 40px 0;
   }
 
   .logo-img {
@@ -245,7 +244,8 @@ body {
 
   .ul-brands {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
     margin: 10px 30px 0 30px;
   }
 
@@ -261,14 +261,15 @@ body {
 
   .rights {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 30px 40px;
+    gap: 40px;
+    margin: 40px 40px;
   }
 
   .rights-logo {
-    width: 50%;
     height: auto;
+    text-align: center;
   }
 
   .t-logo {
@@ -277,10 +278,289 @@ body {
   }
 
   .rights-text {
-    font-size: 10px;
+    font-size: 13px;
     font-family: var(--lato);
     font-weight: 500;
     color: var(--pblack);
     padding-left: 20px;
   }
+}
+
+@media only screen and (min-width: 769px) {
+  .hamburguer,
+  .a-home,
+  .closebtn,
+  .title-paragraph {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 75px;
+    padding-left: 50px;
+  }
+
+  .header-ul {
+    display: flex;
+    align-items: center;
+    padding: 0 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--lato);
+  }
+
+  .a-buttons {
+    padding: 0 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--pblack);
+    font-size: medium;
+  }
+
+  .logo-img1 {
+    width: 125px;
+    height: auto;
+  }
+
+  .header-social {
+    width: auto;
+    height: 40px;
+    background-color: var(--pblack);
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 65px;
+  }
+
+  .a-header-social {
+    color: var(--pgray);
+    padding-right: 20px;
+  }
+
+  .ccc-button {
+    height: 50px;
+    width: auto;
+    padding: 0 10px 0 10px;
+    background-color: white;
+    border: 5px solid var(--pred);
+    font-family: var(--lato);
+    color: var(--pred);
+    margin-left: 50px;
+  }
+
+  .twitter-img {
+    padding-right: 20px;
+  }
+
+  .a-about {
+    color: var(--pred);
+  }
+
+  .intro-mobile {
+    width: 100vw;
+    height: auto;
+    background-image: url(images/about_bg_01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 100px;
+    background-color: rgb(245, 245, 245);
+  }
+
+  .main-title {
+    text-align: center;
+    margin: 0 170px 60px 170px;
+  }
+
+  .title {
+    color: var(--pred);
+    font-size: 60px;
+    font-family: var(--coco);
+    margin-top: 5px;
+  }
+
+  .paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 30px 20px;
+    margin: 40px 120px 20px 120px;
+    background: white;
+    border: 1px solid rgb(225, 225, 225);
+  }
+
+  .paragraph-text {
+    color: var(--pblack);
+    text-align: center;
+    font-size: 17px;
+    background-color: white;
+    font-family: var(--lato);
+    padding: 0 30px;
+  }
+
+  .about-mail {
+    text-align: center;
+  }
+
+  .about {
+    font-family: var(--lato);
+    color: var(--pblack);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 50px 30px 0 30px;
+  }
+
+  .mail {
+    padding: 15px 15px 45px 15px;
+    font-family: var(--lato);
+    color: var(--pblack);
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .logo-section {
+    text-align: center;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    margin: 50px 0 50px 0;
+  }
+
+  .logo-img {
+    margin: 30px 150px;
+    border: 2px rgb(225, 225, 225) solid;
+    padding: 20px 0;
+  }
+
+  .logo-title {
+    font-family: var(--lato);
+    color: var(--pblack);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 30px 0 30px;
+  }
+
+  .logo-date {
+    margin: 30px 30px;
+    font-family: var(--lato);
+    color: var(--pblack);
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .orange-bar {
+    color: #ec5242;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .red-images-section {
+    text-align: center;
+    margin: 50px 0 100px 0;
+  }
+
+  .red-img-container {
+    margin: 40px 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    padding: 0 60px;
+    overflow: hidden;
+  }
+
+  .event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: var(--pred);
+    background-blend-mode: multiply;
+    background-size: cover;
+    flex-direction: column;
+    color: white;
+    padding: 80px 0;
+    gap: 10px;
+  }
+
+  #event1 {
+    background-image: url(images/1.jpeg);
+  }
+
+  #event2 {
+    background-image: url(images/2.jpeg);
+  }
+
+  .place1 {
+    font-family: var(--lato);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .year {
+    font-family: var(--lato);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .sponsors-container {
+    text-align: center;
+    background-color: #272a32;
+  }
+
+  .s-title {
+    font-family: var(--lato);
+    color: var(--pgray);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 30px 0 30px;
+    padding-top: 20px;
+  }
+
+  .ul-brands {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin: 30px 30px 0 30px;
+  }
+
+  .li-brands {
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-family: var(--lato);
+    font-weight: 500;
+    color: var(--pgray);
+    padding: 5px 0 20px 0;
+  }
+
+  .rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 40px;
+  }
+
+  .rights-logo {
+    height: auto;
+    text-align: center;
+  }
+
+  .t-logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .rights-text {
+    font-size: 13px;
+    font-family: var(--lato);
+    font-weight: 500;
+    color: var(--pblack);
+    padding-left: 20px;
+  }
+
+
 }

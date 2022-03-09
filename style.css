@@ -39,7 +39,7 @@ body {
     background-image: url(images/mobile_intro_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   .a-header-div {
@@ -95,7 +95,7 @@ body {
   }
 
   .main-title {
-    margin: 100px 20px 30px 0;
+    margin: 50px 20px 30px 0;
   }
 
   .title {
@@ -185,7 +185,7 @@ body {
 
   .cards {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     background: rgba(255, 255, 255, 0.1);
     margin: 15px 15px 15px 20px;
     height: 90px;
@@ -253,7 +253,7 @@ body {
   .name {
     padding-bottom: 15px;
     font-family: var(--lato);
-    font-size: 30px;
+    font-size: 28px;
     color: var(--pblack);
   }
 
@@ -274,6 +274,63 @@ body {
     font-family: var(--lato);
     font-weight: 400;
     font-size: 15px;
+  }
+
+  .sponsors-container {
+    text-align: center;
+    background-color: #272a32;
+  }
+
+  .s-title {
+    font-family: var(--lato);
+    color: var(--pgray);
+    font-weight: bold;
+    font-size: 35px;
+    margin: 30px 30px 0 30px;
+    padding-top: 20px;
+  }
+
+  .ul-brands {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px 30px 0 30px;
+  }
+
+  .li-brands {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20 px;
+    font-family: var(--lato);
+    font-weight: 500;
+    color: var(--pgray);
+    padding: 5px 0 20px 0;
+  }
+
+  .rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 40px;
+  }
+
+  .rights-logo {
+    height: auto;
+    text-align: center;
+  }
+
+  .t-logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .rights-text {
+    font-size: 13px;
+    font-family: var(--lato);
+    font-weight: 500;
+    color: var(--pblack);
+    padding-left: 20px;
   }
 }
 
@@ -454,6 +511,7 @@ body {
   
   .cards-container {
     display: flex;
+    justify-content: center;
     gap: 5px;
     margin: 30px 30px;
   }
@@ -462,6 +520,7 @@ body {
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
     width: auto;
+    padding-bottom: 30px;
   }
 
   .main-img {
@@ -558,5 +617,60 @@ body {
     font-size: 15px;
   }
 
+  .sponsors-container {
+    text-align: center;
+    background-color: #272a32;
+  }
 
+  .s-title {
+    font-family: var(--lato);
+    color: var(--pgray);
+    font-weight: bold;
+    font-size: 35px;
+    margin: 30px 30px 0 30px;
+    padding-top: 20px;
+  }
+
+  .ul-brands {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin: 30px 30px 0 30px;
+  }
+
+  .li-brands {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20 px;
+    font-family: var(--lato);
+    font-weight: 500;
+    color: var(--pgray);
+    padding: 5px 0 20px 0;
+  }
+
+  .rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 40px;
+  }
+
+  .rights-logo {
+    height: auto;
+    text-align: center;
+  }
+
+  .t-logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .rights-text {
+    font-size: 13px;
+    font-family: var(--lato);
+    font-weight: 500;
+    color: var(--pblack);
+    padding-left: 20px;
+  }
 }
