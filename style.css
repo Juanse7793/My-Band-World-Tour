@@ -184,8 +184,10 @@ body {
   }
 
   .cards {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 100px 80px auto;
+    grid-template-rows: auto;
+    gap: 15px;
     background: rgba(255, 255, 255, 0.1);
     margin: 15px 15px 15px 20px;
     height: 90px;
@@ -336,7 +338,6 @@ body {
 
 @media only screen and (min-width: 769px) {
   .intro-mobile,
-  .a-home,
   .closebtn,
   .main-button {
     display: none;
@@ -530,9 +531,14 @@ body {
 
   .cards {
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
     width: auto;
-    padding-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-bottom: 35px;
+    border: 2px solid transparent;
+  }
+
+  .cards:hover {
+    border: solid var(--pgray) 2px;
   }
 
   .main-img {
