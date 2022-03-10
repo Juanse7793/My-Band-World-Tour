@@ -28,18 +28,19 @@ body {
   .header-social,
   .logo-div,
   .ccc-button,
-  .intro-desk,
-  .whole-program {
+  .title-paragraph {
     display: none;
   }
 
   .intro-mobile {
     width: 100vw;
     height: auto;
-    background-image: url(images/mobile_intro_bg.png);
+    background-image: url(images/about_bg_01.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position-y: 150px;
     padding-top: 30px;
+    background-color: rgb(245, 245, 245);
   }
 
   .a-header-div {
@@ -95,187 +96,136 @@ body {
   }
 
   .main-title {
-    margin: 50px 20px 30px 0;
+    text-align: center;
   }
 
   .title {
-    background: linear-gradient(rgb(171, 173, 2), #ec5242);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 60px;
-    margin-left: 40px;
+    color: var(--pred);
+    font-size: 50px;
+    margin: 10px 30px;
     font-family: var(--coco);
     margin-top: 5px;
-  }
-
-  .title-paragraph {
-    margin-left: 40px;
-    font-family: var(--coco);
-    font-size: 25px;
-    background: linear-gradient(red, rgb(90, 90, 0));
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-bottom: 20px;
   }
 
   .paragraph {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid white;
-    padding: 30px 20px 30px 30px;
-    margin: 20px 30px;
-    background: transparent;
+    padding: 30px 20px 30px 20px;
+    margin: 40px 30px 20px 30px;
+    background: white;
+    border: 1px solid rgb(225, 225, 225);
   }
 
   .paragraph-text {
     color: var(--pblack);
-    font-size: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: white;
+    font-family: var(--lato);
+  }
+
+  .about-mail {
+    text-align: center;
+  }
+
+  .about {
+    font-family: var(--lato);
+    color: var(--pblack);
     font-weight: 600;
-    background-color: transparent;
+    font-size: 12px;
+    margin: 50px 30px 0 30px;
+  }
+
+  .mail {
+    padding: 15px 15px 45px 15px;
     font-family: var(--lato);
-  }
-
-  .date-place {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    padding-bottom: 70px;
-  }
-
-  .date {
-    padding-top: 10px;
-    font-family: var(--coco);
-    font-size: 30px;
     color: var(--pblack);
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 15px;
   }
 
-  .place {
+  .logo-section {
+    text-align: center;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    margin: 30px 0 40px 0;
+  }
+
+  .logo-img {
+    margin: 30px 30px;
+    border: 2px rgb(225, 225, 225) solid;
     padding: 20px 0;
+  }
+
+  .logo-title {
     font-family: var(--lato);
-    font-size: 20px;
     color: var(--pblack);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 30px 0 30px;
   }
 
-  .main-program {
-    width: 100vw;
-    background-color: var(--main);
-    background-image: url(images/pattern_bg.png);
-  }
-
-  .main-p-title,
-  .band-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .program-title {
-    padding-top: 45px;
-    color: white;
+  .logo-date {
+    margin: 30px 30px;
     font-family: var(--lato);
-    font-size: 35px;
+    color: var(--pblack);
+    font-weight: 600;
+    font-size: 15px;
   }
 
   .orange-bar {
     color: #ec5242;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 800;
   }
 
-  .cards {
-    display: grid;
-    grid-template-columns: 100px 80px auto;
-    grid-template-rows: auto;
-    gap: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 15px 15px 15px 20px;
-    height: 90px;
-    align-items: center;
-  }
-
-  .main-img {
-    padding: 0 20px 0 40px;
-  }
-
-  .second {
-    color: var(--pred);
-    padding: 0;
-    font-family: var(--lato);
-    font-size: 14px;
-    text-align: start;
-  }
-
-  .third {
-    color: white;
-    padding: 0 15px 0 20px;
-    font-family: var(--lato);
-  }
-
-  .main-button {
+  .red-images-section {
     text-align: center;
   }
 
-  .btn-main {
-    margin: 20px 30px;
-    background-color: var(--pred);
-    color: white;
-    font-family: var(--lato);
-    height: 100px;
-    width: 300px;
-    font-weight: 800;
-    font-size: 20px;
-  }
-
-  .band-title-text {
-    padding-top: 45px;
-    color: var(--pblack);
-    font-family: var(--lato);
-    font-size: 35px;
-  }
-
-  .members2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .red-img-container {
     margin: 40px 0;
+    width: 100%;
+    display: grid;
+    gap: 25px;
+    padding: 0 40px;
+    overflow: hidden;
   }
 
-  .img-band {
-    width: 180px;
-    height: auto;
-    margin: 30px 20px;
+  .event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: var(--pred);
+    background-blend-mode: multiply;
+    background-size: cover;
+    flex-direction: column;
+    color: white;
+    padding: 80px 0;
+    gap: 10px;
   }
 
-  .data-band {
-    margin-right: 20px;
-    margin-left: 20px;
+  #event1 {
+    background-image: url(images/1.jpeg);
   }
 
-  .name {
-    padding-bottom: 15px;
+  #event2 {
+    background-image: url(images/2.jpeg);
+  }
+
+  .place1 {
     font-family: var(--lato);
-    font-size: 28px;
-    color: var(--pblack);
-  }
-
-  .band-position {
-    color: #ec5242;
-    font-family: cursive;
     font-size: 20px;
+    font-weight: 600;
   }
 
-  .gray-bar {
-    color: gray;
-    font-size: 15px;
-    font-weight: 800;
-  }
-
-  .member-description {
-    padding: 25px 0;
+  .year {
     font-family: var(--lato);
-    font-weight: 400;
-    font-size: 15px;
+    font-size: 30px;
+    font-weight: bold;
   }
 
   .sponsors-container {
@@ -287,7 +237,7 @@ body {
     font-family: var(--lato);
     color: var(--pgray);
     font-weight: bold;
-    font-size: 35px;
+    font-size: 20px;
     margin: 30px 30px 0 30px;
     padding-top: 20px;
   }
@@ -302,7 +252,7 @@ body {
   .li-brands {
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     font-family: var(--lato);
     font-weight: 500;
     color: var(--pgray);
@@ -337,9 +287,9 @@ body {
 }
 
 @media only screen and (min-width: 769px) {
-  .intro-mobile,
+  .hamburguer,
   .closebtn,
-  .main-button {
+  .title-paragraph {
     display: none;
   }
 
@@ -374,7 +324,7 @@ body {
     font-size: medium;
   }
 
-  .logo-img {
+  .logo-img1 {
     width: 125px;
     height: auto;
   }
@@ -422,221 +372,151 @@ body {
     color: var(--pred);
   }
 
-  .intro-desk {
-    width: 100%;
+  .intro-mobile {
+    width: 100vw;
     height: auto;
-    background-image: url(images/main_big.png);
+    background-image: url(images/about_bg_01.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 40px;
+    background-size: contain;
+    background-position: center;
+    padding-top: 100px;
+    background-color: rgb(245, 245, 245);
   }
 
   .main-title {
-    margin: 100px 20px 30px 0;
+    text-align: center;
+    margin: 0 170px 60px 170px;
   }
 
   .title {
-    background: linear-gradient(rgb(171, 173, 2), #ec5242);
-    -webkit-background-clip: text;
-    color: transparent;
+    color: var(--pred);
     font-size: 60px;
-    margin-left: 40px;
     font-family: var(--coco);
     margin-top: 5px;
-    padding-right: 400px;
-  }
-
-  .title-paragraph {
-    margin-left: 40px;
-    font-family: var(--coco);
-    font-size: 25px;
-    background: linear-gradient(red, rgb(90, 90, 0));
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-bottom: 20px;
   }
 
   .paragraph {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid white;
-    padding: 30px 20px 30px 0;
-    margin: 20px 450px 20px 30px;
-    background: rgb(248, 248, 248);
+    padding: 30px 20px 30px 20px;
+    margin: 40px 120px 20px 120px;
+    background: white;
+    border: 1px solid rgb(225, 225, 225);
   }
 
   .paragraph-text {
     color: var(--pblack);
-    font-size: 20px;
-    font-weight: 400;
-    background-color: transparent;
+    text-align: center;
+    font-size: 17px;
+    background-color: white;
     font-family: var(--lato);
+    padding: 0 30px;
   }
 
-  .date-place {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    padding-bottom: 70px;
+  .about-mail {
+    text-align: center;
   }
 
-  .date {
-    padding-top: 10px;
-    font-family: var(--coco);
-    font-size: 30px;
+  .about {
+    font-family: var(--lato);
     color: var(--pblack);
-  }
-
-  .place {
-    padding: 20px 0;
-    font-family: var(--lato);
     font-weight: 600;
-    font-size: 20px;
-    color: var(--pblack);
+    font-size: 14px;
+    margin: 50px 30px 0 30px;
   }
 
-  .main-program {
-    width: 100%;
-    background-color: var(--main);
-    background-image: url(images/pattern_bg.png);
-  }
-
-  .main-p-title,
-  .band-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .program-title {
-    padding-top: 45px;
-    color: white;
+  .mail {
+    padding: 15px 15px 45px 15px;
     font-family: var(--lato);
-    font-size: 35px;
+    color: var(--pblack);
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+
+  .logo-section {
+    text-align: center;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    margin: 50px 0 50px 0;
+  }
+
+  .logo-img {
+    margin: 30px 150px;
+    border: 2px rgb(225, 225, 225) solid;
+    padding: 20px 0;
+  }
+
+  .logo-title {
+    font-family: var(--lato);
+    color: var(--pblack);
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 30px 0 30px;
+  }
+
+  .logo-date {
+    margin: 30px 30px;
+    font-family: var(--lato);
+    color: var(--pblack);
+    font-weight: 600;
+    font-size: 15px;
   }
 
   .orange-bar {
     color: #ec5242;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 800;
   }
 
-  .cards-container {
+  .red-images-section {
+    text-align: center;
+    margin: 50px 0 100px 0;
+  }
+
+  .red-img-container {
+    margin: 40px 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    padding: 0 60px;
+    overflow: hidden;
+  }
+
+  .event {
     display: flex;
     justify-content: center;
-    gap: 5px;
-    margin: 30px 30px;
-  }
-
-  .cards {
-    text-align: center;
-    width: auto;
-    background: rgba(255, 255, 255, 0.1);
-    padding-bottom: 35px;
-    border: 2px solid transparent;
-  }
-
-  .cards:hover {
-    border: solid var(--pgray) 2px;
-  }
-
-  .main-img {
-    padding: 40px 0 20px 0;
-    transform: scale(1.8);
-  }
-
-  .second {
-    color: var(--pred);
-    margin: 20px;
-    font-family: var(--lato);
-  }
-
-  .third {
-    color: white;
-    margin: 0;
-    padding: 0 15px 0 15px;
-    font-family: var(--lato);
-  }
-
-  .whole-program {
-    text-align: center;
-    padding: 80px 0 100px 0;
-  }
-
-  .see {
-    color: white;
-    text-decoration: underline;
-    font-family: var(--lato);
-    font-weight: 500;
-  }
-
-  .see:hover {
-    color: var(--pred);
-  }
-
-  .band-container {
-    text-align: center;
-    width: 100%;
-  }
-
-  .band-title-text {
-    padding-top: 45px;
-    color: var(--pblack);
-    font-family: var(--lato);
-    font-size: 35px;
-  }
-
-  #members {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    margin: 40px;
-  }
-
-  .members2 {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
-    margin: 30px 0;
+    background-position: center;
+    background-color: var(--pred);
+    background-blend-mode: multiply;
+    background-size: cover;
+    flex-direction: column;
+    color: white;
+    padding: 80px 0;
+    gap: 10px;
   }
 
-  .img-band {
-    width: 150px;
-    height: auto;
-    margin: 30px 20px;
+  #event1 {
+    background-image: url(images/1.jpeg);
   }
 
-  .data-band {
-    margin-right: 20px;
-    margin-left: 20px;
-    text-align: left;
+  #event2 {
+    background-image: url(images/2.jpeg);
   }
 
-  .name {
-    padding-bottom: 15px;
+  .place1 {
+    font-family: var(--lato);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .year {
     font-family: var(--lato);
     font-size: 30px;
-    color: var(--pblack);
-  }
-
-  .band-position {
-    color: #ec5242;
-    font-family: cursive;
-    font-size: 20px;
-  }
-
-  .gray-bar {
-    color: gray;
-    font-size: 15px;
-    font-weight: 800;
-  }
-
-  .member-description {
-    padding: 25px 0;
-    font-family: var(--lato);
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: bold;
   }
 
   .sponsors-container {
@@ -648,7 +528,7 @@ body {
     font-family: var(--lato);
     color: var(--pgray);
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     margin: 30px 30px 0 30px;
     padding-top: 20px;
   }
@@ -663,7 +543,7 @@ body {
   .li-brands {
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     font-family: var(--lato);
     font-weight: 500;
     color: var(--pgray);
