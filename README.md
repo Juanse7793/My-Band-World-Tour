@@ -14,26 +14,31 @@
 
 **In this repository I will create a web page for VPN Live Concert.**
 
+
 ## Run it
 
-Use the following steps to run this Portfolio locally:
+Use the following steps to run this Project locally:
 
-- open the terminal
+- Create a directory
 
-- get in the directory you want this folder to appear
+- Open the terminal
 
-- put: git clone git@github.com:Juanse7793/Capstone-Module-1.git
+- Run this command:
+`git clone git@github.com:Juanse7793/My-Band-World-Tour.git`
 
-- open the folder with a code editor (VS Code preferred)
+- Enter in to the folder:
+`cd My-Band-World-Tour`
 
-- go to the index.html file and open it with live server
+- Open the folder with a code editor (VS Code preferred)
+
+- Go to the index.html file and open it with live server
+
 
 
 ### Demo
 
-For a live demo please click on the following link:
+Here you have a [Live Demo](https://juanse7793.github.io/My-Band-World-Tour/) of the Band Page
 
-https://juanse7793.github.io/Capstone-Module-1/
 
 ## Author
 
