@@ -33,7 +33,7 @@ body {
   }
 
   .intro-mobile {
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-image: url(images/about_bg_01.png);
     background-repeat: no-repeat;
@@ -74,6 +74,7 @@ body {
 
   .a-header-div .closebtn {
     position: absolute;
+    z-index: 10;
     margin: 0 0 0 0;
     color: var(--pred);
     font-size: 30px;
@@ -373,7 +374,7 @@ body {
   }
 
   .intro-mobile {
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-image: url(images/about_bg_01.png);
     background-repeat: no-repeat;

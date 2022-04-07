@@ -73,6 +73,7 @@ body {
 
   .a-header-div .closebtn {
     position: absolute;
+    z-index: 10;
     margin: 0 0 0 0;
     color: var(--pred);
     font-size: 30px;
