@@ -2,6 +2,7 @@
 
 > Here is my Capstone Project for module 1, In this project I build a mobile and desktop vesion of a website using all the things that I learned like CSS, HTML and JavaScript.
 
+<img src='images/rwdband.png'>
 
 ## Built With
 
